@@ -1,0 +1,10 @@
+Bundle-Name: SendMailUser-api
+Bundle-SymbolicName: org.salvacomes.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	org.salvacomes.exception,\
+	org.salvacomes.model,\
+	org.salvacomes.service,\
+	org.salvacomes.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../SendMailUser-service/service.xml

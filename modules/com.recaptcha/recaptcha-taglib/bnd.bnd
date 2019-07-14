@@ -1,0 +1,10 @@
+Bundle-Name: reCAPTCHA Taglib
+Bundle-SymbolicName: com.recaptcha.taglib
+Bundle-Version: 1.0.0
+Export-Package: com.recaptcha.taglib
+Provide-Capability:\
+	osgi.extender;\
+		osgi.extender="jsp.taglib";\
+		uri="http://recaptcha.com/tld/recaptcha";\
+		version:Version="${Bundle-Version}"
+Web-ContextPath: /recaptcha-taglib
